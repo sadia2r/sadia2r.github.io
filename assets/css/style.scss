@@ -1,0 +1,16 @@
+---
+---
+
+/* 🌸 Custom Dark + Pink Theme for Chirpy */
+
+$sidebar-bg: #111;        // Sidebar background (dark charcoal)
+$sidebar-link: #ff66b2;   // Sidebar text/links (pink)
+$sidebar-active: #ff3399; // Active item highlight (hot pink)
+$brand-color: #ff4da6;    // Accent colour (buttons, hover, tags)
+
+$body-bg: #0d0d0d;        // Main background (almost black)
+$text-color: #e6e6e6;     // Default text (light grey)
+$link-color: #ff66b2;     // Links (pink)
+$link-hover-color: #ff3399;
+
+@import "jekyll-theme-chirpy";
