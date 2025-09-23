@@ -1,33 +1,48 @@
 ---
 ---
 
-// 🌸 Custom Theme Overrides
+/* 🌸 Custom Theme Overrides */
 
-/* Light mode */
-:root {
-  --sidebar-bg: #ffffff;      /* White sidebar */
-  --sidebar-link: #cc007a;    /* Pink links */
-  --sidebar-active: #990066;  /* Darker pink active */
-  --brand-color: #cc007a;     /* Accent colour */
+/* === Dark Mode === */
+[data-theme="dark"] {
+  --sidebar-bg: #111;         /* Sidebar background (dark charcoal) */
+  --sidebar-link: #ff66b2;    /* Sidebar text/links (pink) */
+  --sidebar-active: #ff3399;  /* Active nav highlight (hot pink) */
+  --brand-color: #ff4da6;     /* Accent colour */
+
+  --body-bg: #0d0d0d;         /* Page background */
+  --text-color: #e6e6e6;      /* Default text */
+  --link-color: #ff66b2;      /* Links */
+  --link-hover-color: #ff3399;/* Hover links */
+}
+
+/* === Light Mode === */
+[data-theme="light"] {
+  --sidebar-bg: #fff;         /* Sidebar background */
+  --sidebar-link: #333;       /* Sidebar text/links */
+  --sidebar-active: #ff3399;  /* Active nav highlight */
+  --brand-color: #ff3399;     /* Accent colour */
+
   --body-bg: #fdfdfd;         /* Page background */
-  --text-color: #222222;      /* Text */
-  --link-color: #cc007a;      /* Links */
-  --link-hover-color: #990066;
+  --text-color: #111;         /* Default text */
+  --link-color: #cc0066;      /* Links */
+  --link-hover-color: #ff3399;/* Hover links */
 }
 
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --sidebar-bg: #111111;     
-    --sidebar-link: #ff66b2;   
-    --sidebar-active: #ff3399; 
-    --brand-color: #ff4da6;    
-    --body-bg: #0d0d0d;        
-    --text-color: #e6e6e6;     
-    --link-color: #ff66b2;     
-    --link-hover-color: #ff3399;
-  }
+/* === Global Button Styling === */
+.btn {
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  font-weight: 600;
 }
 
-// Import theme last so variables cascade properly
-@import "jekyll-theme-chirpy";
+.btn--primary {
+  background-color: var(--brand-color);
+  color: #fff;
+}
+
+.btn--primary:hover {
+  background-color: var(--sidebar-active);
+}
+
