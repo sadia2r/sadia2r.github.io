@@ -90,4 +90,4 @@ AI-focused Legal Tech MSc student with a background in Law and growing expertise
 - Coding (Python, HTML, CSS, JavaScript) with a focus on LegalTech.  
 - Reading literature (classics, contemporary, and technoethics/AI non-fiction).  
 - Watching foreign TV dramas for cultural perspectives.  
-- Travelling to explore new cultures and languages.  ![Uploading image.png…]()
+- Travelling to explore new cultures and languages. 
