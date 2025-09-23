@@ -2,7 +2,6 @@
 layout: page
 title: "About Me"
 permalink: /
-icon: fas fa-user
 order: 1
 ---
 
