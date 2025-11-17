@@ -1,18 +1,18 @@
 ---
 layout: page
 title: "About Me"
-permalink: /
+permalink: /about/
 order: 1
 ---
 
-# 👋 Hi, I'm Sadia
+# Hi, I'm Sadia
 
 I’m a Legal Tech professional with growing expertise in AI tools web development and automation.
 My projects explore how technology can improve access to justice and simplify everyday systems.
 
 ---
 
-## 🌟 Personal Projects
+## Personal Projects
 
 ### 📚 AI-Powered Reading & Media Tracker  
 A React/Next.js app to log books and shows, fetching cover data from APIs (Goodreads, OMDb).  
